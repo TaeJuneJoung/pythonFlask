@@ -1,5 +1,5 @@
 import random
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 #render_template을 import하고 templates라는 폴더에서 'render_template("html_file.html")'을 통해 받음
 
 app = Flask(__name__)
